@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashViewController" customModule="TOOTBERRY" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OHd-GK-zEr" userLabel="Safe Area Container">
+                    <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                    <color key="backgroundColor" red="0.93055107770000001" green="0.93055107770000001" blue="0.93055107770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="h4t-Pb-wpG"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="OHd-GK-zEr" firstAttribute="bottom" secondItem="h4t-Pb-wpG" secondAttribute="bottom" id="475-gq-xVs"/>
+                <constraint firstItem="OHd-GK-zEr" firstAttribute="top" secondItem="h4t-Pb-wpG" secondAttribute="top" id="Xxq-Tq-jre"/>
+                <constraint firstItem="OHd-GK-zEr" firstAttribute="trailing" secondItem="h4t-Pb-wpG" secondAttribute="trailing" id="YTq-pN-04f"/>
+                <constraint firstItem="OHd-GK-zEr" firstAttribute="leading" secondItem="h4t-Pb-wpG" secondAttribute="leading" id="xDL-mF-guE"/>
+            </constraints>
+            <point key="canvasLocation" x="140" y="149"/>
+        </view>
+    </objects>
+</document>
