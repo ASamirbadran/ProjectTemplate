@@ -1,0 +1,92 @@
+disabled_rules: # rule identifiers to exclude from running
+ - trailing_whitespace
+ - todo
+ - trailing_semicolon
+ - sorted_imports
+ - control_statement
+ - object_literal
+ - closure_end_indentation
+excluded:
+  - Frameworks
+  - Pods
+  - Submodule
+  - Carthage
+  - TaniaOrderApp
+  - TaniaOrderApp Extension
+  - Tania/Resources
+opt_in_rules:
+  - empty_count
+  - explicit_init
+  - closure_spacing
+  - overridden_super_call
+  - redundant_nil_coalescing
+  - private_outlet
+  - nimble_operator
+  - attributes
+  - operator_usage_whitespace
+  - first_where
+  - sorted_imports
+  - object_literal
+  - number_separator
+  - prohibited_super_call
+  - fatal_error_message
+  - force_unwrapping
+  - legacy_constant
+  - vertical_parameter_alignment_on_call
+  - multiline_parameters
+  - notification_center_detachment
+
+
+file_name:
+  excluded:
+    - main.swift
+
+force_cast: warning 
+force_try: warning
+force_unwrapping: warning
+legacy_constant: warning
+vertical_parameter_alignment_on_call: warning
+multiline_parameters: warning
+notification_center_detachment: warning
+empty_count: warning
+shorthand_operator: warning
+warning_threshold: 5112
+
+line_length:
+  warning: 120
+  error: 800
+  ignores_comments: true
+  
+# they can set both implicitly with an array
+type_body_length:
+  - 400 # warning
+  - 2000 # error
+# or they can set both explicitly
+
+
+file_length:
+  warning: 1200
+  error: 1600
+
+number_separator:
+  minimum_length: 5
+
+type_name:
+  min_length: 4 # only warning
+  max_length: # warning and error
+    warning: 50
+    error: 60
+  excluded: iPhone # excluded via string
+identifier_name:
+  min_length: # only min_length
+    error: 3 # only error
+  excluded: # excluded via string array
+    - i
+    - id
+    - URL
+    - vc
+    - stb
+    - hud
+    - HUD
+    - db
+
