@@ -1,5 +1,5 @@
 [update]
-tasks = ["interfaces", "code", "normalize"]
+tasks = ["interfaces", "normalize"]
 
 [update.interfaces]
 paths = ["."]
