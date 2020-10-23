@@ -9,10 +9,7 @@ import UIKit
 extension AppDelegate {
 
     func initNetwork() {
-        //getting from enviroment xconfig
-        //let defaults = NetworkDefaults(baseUrl: Environment.rootURL, apiKey: Environment.apiKey)
-        let defaults = NetworkDefaults(baseUrl: "Environment.rootURL", apiKey: "Environment.apiKey")
-
+        let defaults = NetworkDefaults(baseUrl: Environment.rootURL, apiKey: Environment.apiKey)
         NetworkManager.shared = NetworkManager(config: defaults)
     }
     
