@@ -1,9 +1,7 @@
 PODS:
   - Alamofire (4.9.1)
   - IQKeyboardManagerSwift (6.5.6)
-  - Kingfisher (5.15.6):
-    - Kingfisher/Core (= 5.15.6)
-  - Kingfisher/Core (5.15.6)
+  - Kingfisher (6.0.1)
   - Material (3.1.8):
     - Material/Core (= 3.1.8)
   - Material/Core (3.1.8):
@@ -17,9 +15,9 @@ PODS:
     - Alamofire (~> 4.1)
     - Result (~> 4.1)
   - Result (4.1.0)
-  - SwiftMessages (8.0.2):
-    - SwiftMessages/App (= 8.0.2)
-  - SwiftMessages/App (8.0.2)
+  - SwiftMessages (8.0.5):
+    - SwiftMessages/App (= 8.0.5)
+  - SwiftMessages/App (8.0.5)
 
 DEPENDENCIES:
   - IQKeyboardManagerSwift
@@ -42,13 +40,13 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
-  Kingfisher: b3554e7bf6106115b44e8795300bad580ef2fdc7
+  Kingfisher: adde87a4f74f6a3845395769354efff593581740
   Material: a2a3f400a3b549d53ef89e56c58c4535b29db387
   Motion: cf1e060e489f6661126374d5c60dbd2ed991605c
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
-  SwiftMessages: 633304165351b8e3dcbb81a71f8efcd86f9c1669
+  SwiftMessages: 539fd54a766bf08ec667e90aa141c44b8b8aaa55
 
-PODFILE CHECKSUM: 166a76bb5dd5f81df75faf2bd75442faca10990e
+PODFILE CHECKSUM: f4168dd11c068a01d2fef602984c03dfdc452706
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0

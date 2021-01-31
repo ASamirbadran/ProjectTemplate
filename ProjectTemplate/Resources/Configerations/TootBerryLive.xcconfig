@@ -1,0 +1,13 @@
+//
+//  ProjectTemplateLive.xcconfig
+//  ProjectTemplate
+//
+//  Created by Ahmed Samir on 10/21/20.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_URL = api-new.ProjectTemplate.sa
+API_KEY = ios123
+

@@ -1,13 +1,13 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '11.0'
 
-target 'TOOTBERRY' do
+target 'ProjectTemplate' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   inhibit_all_warnings!
   
 #update Moya
-  # Pods for TOOTBERRY
+  # Pods for ProjectTemplate
   pod 'Moya', '~> 13.0.1'
   pod 'IQKeyboardManagerSwift'
   pod 'Kingfisher'

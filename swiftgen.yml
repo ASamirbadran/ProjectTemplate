@@ -1,5 +1,5 @@
-input_dir: TOOTBERRY
-output_dir: TOOTBERRY
+input_dir: ProjectTemplate
+output_dir: ProjectTemplate
 strings:
   inputs:
     - Resources/Localization/en.lproj/Localizable.strings
