@@ -2,7 +2,7 @@
  * Viper
  * xibs
  * Utilities
- * Network Layer 
+ * Moya Network Layer 
  * Environment xcconfig files
  * Swiftgen
  * SwiftLint
